@@ -113,7 +113,7 @@ p {
 .socialimg {
     width: 40px;
     padding: 10px;
-    transition: width .2s ease;
+    transition: width .2s ease; 
 
 }
 .socialimg:hover{
