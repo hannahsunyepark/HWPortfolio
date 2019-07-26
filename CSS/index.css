@@ -25,12 +25,12 @@ body {
     width: 88%;
     height: 200vh;
     text-align: center;
-    background-color:#ea969656;
+    background-color:#deb3a956;
 }
 .column3 {
     height: 200vh;
     width: 5%;
-    background-color:#ea969656;
+    background-color:#deb3a956;
     box-shadow: 15px 4px 14px -7px rgba(179, 122, 122, 0.342);
 }
 .works {
