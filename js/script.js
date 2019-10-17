@@ -35,3 +35,14 @@ $(".column4").on("click", function(){
     }    
 });
 
+$(".casestudyimg").on("mouseover", function(){
+    $(this).css("display", "none")
+    console.log(this)
+    console.log('hi')
+});
+
+$(".casestudyimg").on("mouseleave", function(){
+    $(this).css("display", "block")
+    console.log('i left')
+});
+
