@@ -47,7 +47,7 @@ body {
 
 
 #biotitle {
-    font-family: 'Granville', Light;
+    font-family: 'Poiret One', cursive;
     padding: 4%;
     padding-bottom: 3%;
     margin: 0 auto;
@@ -58,7 +58,7 @@ body {
     color: #00253d;
 }
 #biobody {
-    font-family: big-caslon-fb, serif;font-weight: 400;
+    font-family: 'Poiret One', cursive;font-weight: 400;
     font-style: normal;
     font-size: 18px;
     padding-bottom: 4%;
@@ -200,6 +200,8 @@ body {
     height: 100%;
     color: #00253d;
     position: absolute;
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
 }
 
 .flextext:hover {
