@@ -189,7 +189,7 @@ body {
 
 
 .flextext {
-    background-image: url(../Images/opacbox.png);
+    background-image: url('../Images/opacbox.png');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
