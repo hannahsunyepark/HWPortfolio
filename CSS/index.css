@@ -5,12 +5,12 @@ body {
 }
 .wrapper {
     display: flex;
-    height: 150vh;
+    height: 200vh;
 }
 .column1 {
     background-color: #CDD8E8;
     display: block;
-    height: 150vh;
+    height: 200vh;
     color: black;
     width: 92.5%;
     font-family: 'Poiret One', cursive;
@@ -119,7 +119,7 @@ body {
 
 .column2 {
     width: 96.5%;
-    height: 150vh;
+    height: 200vh;
     text-align: center;
     background-color:#C3D2D8;
     box-shadow: 4px 0px 13px -2px #587984;
@@ -131,7 +131,7 @@ body {
 }
 
 .column3 {
-    height: 150vh;
+    height: 200vh;
     width: 9%;
     background-color: #CDD8E8;
     position: absolute;
@@ -155,7 +155,7 @@ body {
     color: #00253d;
 }
 .belowheader {
-    font-family: 'Granville', Light;
+    font-family: 'Granville', Light !important;
     color: #00253d;
     margin: 0 auto;
     display: block;
@@ -182,7 +182,7 @@ body {
 .flexitem {
     border: .5px solid #00263d;
     width: 27%;
-    margin: 40px;
+    margin: 40px 40px -6px 40px;
     display: flex;
     position: relative;
 }
@@ -213,9 +213,22 @@ body {
     width: 100%;
 }
 
+.pd {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    min-width: 15%;
+    max-width: 25%;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-family: 'Granville', Light !important;
+    color: #00253d;
+}
+
 
 .column4 {
-    height: 150vh;
+    height: 200vh;
     width: 99.5%;
     background-color: #C3BBBF;
     box-shadow: 4px 0px 13px -2px #75646c;
@@ -248,7 +261,6 @@ body {
     width: 15%;
 }
 .btn {
-    margin-top: 25%;
     background-color: #587984;
     border-color: #587984;
     box-shadow: -2px 3px 7px -2px #475c65;
@@ -256,6 +268,8 @@ body {
     width: 120px;
     height: 25px;
     color: white;
+    margin-top: 28%;
+    margin-bottom: 33%;
 }
 .btn:hover {
     width:125px;
